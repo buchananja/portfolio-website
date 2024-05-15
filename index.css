@@ -1,5 +1,5 @@
 body{
-    background-color:#EEEEEE!important;
+    background-color:#1a1a1a!important;
 }
 
 /* #profile-pic{
@@ -80,7 +80,7 @@ ul {
     font-family: 'Roboto Mono', monospace;
     font-size: 30px;
     font-weight: 900;
-    color: #1C2266;
+    color: #729cd3;
 }
 
 .monospace-semibold {
@@ -88,7 +88,7 @@ ul {
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
     font-weight: 700;
-    color: #1C2266;
+    color: #729cd3;
 }
 
 .monospace-regular {
@@ -96,7 +96,7 @@ ul {
     font-family: 'Roboto Mono', monospace;
     font-size: 12px;
     font-weight: 300;
-    color: #1C2266;
+    color: #729cd3;
 }
 
 p.indented {
@@ -111,7 +111,7 @@ p.indented {
     background-size: 100% 50%;
     background-position: top;
     text-align: left;
-    background-color: #ffffff;
+    background-color: #232323;
 }
 
 #profile-wrapper::after {
@@ -122,4 +122,13 @@ p.indented {
     bottom: 0;
     left: 0;
     pointer-events: none;
+}
+
+/* changes card colours */
+.card {
+    background-color: #353535 !important;
+}
+
+bg-primary {
+    background-color: #353535 !important;
 }
