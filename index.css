@@ -1,14 +1,6 @@
 body{
-    background-color:#1a1a1a!important;
+    background-color:#0d1117!important;
 }
-
-/* #profile-pic{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-} */
 
 #profile-pic{
     width: 85%;
@@ -111,7 +103,7 @@ p.indented {
     background-size: 100% 50%;
     background-position: top;
     text-align: left;
-    background-color: #232323;
+    background-color: #22252b;
 }
 
 #profile-wrapper::after {
@@ -126,9 +118,9 @@ p.indented {
 
 /* changes card colours */
 .card {
-    background-color: #353535 !important;
+    background-color: #22252b !important;
 }
 
 bg-primary {
-    background-color: #353535 !important;
+    background-color: #22252b !important;
 }
