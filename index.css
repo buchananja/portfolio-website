@@ -103,7 +103,7 @@ p.indented {
     background-size: 100% 50%;
     background-position: top;
     text-align: left;
-    background-color: #2b2e34;
+    background-color: #21262d;
 }
 
 #profile-wrapper::after {
@@ -118,9 +118,9 @@ p.indented {
 
 /* changes card colours */
 .card {
-    background-color: #2b2e34 !important;
+    background-color: #21262d !important;
 }
 
 bg-primary {
-    background-color: #2b2e34 !important;
+    background-color: #21262d !important;
 }
