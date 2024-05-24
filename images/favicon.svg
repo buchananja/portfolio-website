@@ -79,11 +79,11 @@
      id="layer1">
     <path
        id="path23"
-       style="fill:#2c5aa0;fill-opacity:1;stroke-width:0.979204"
+       style="fill:#999999;fill-opacity:1;stroke-width:0.979204"
        d="m 205.58747,126.40595 a 531.8756,531.8756 0 0 0 -79.1817,748.00633 531.8756,531.8756 0 0 0 748.00647,79.182 531.8756,531.8756 0 0 0 79.18185,-748.00673 531.8756,531.8756 0 0 0 -748.00662,-79.1816 z m 36.4677,45.1025 a 473.8745,473.8745 0 0 1 666.4363,70.5469 473.8745,473.8745 0 0 1 -70.54701,666.43613 473.8745,473.8745 0 0 1 -666.43619,-70.5469 473.8745,473.8745 0 0 1 70.547,-666.43613 z" />
     <text
        xml:space="preserve"
-       style="font-weight:bold;font-size:727.506px;line-height:0;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold';letter-spacing:0px;fill:#2c5aa0;stroke-width:2.72814"
+       style="font-weight:bold;font-size:727.506px;line-height:0;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono Bold';letter-spacing:0px;fill:#999999;stroke-width:2.72814"
        x="92.946327"
        y="776.04865"
        id="text1"><tspan
@@ -91,6 +91,6 @@
          id="tspan1"
          x="92.946327"
          y="776.04865"
-         style="stroke-width:2.72814;fill:#2c5aa0">JB</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Roboto Mono';-inkscape-font-specification:'Roboto Mono Bold';fill:#999999;stroke-width:2.72814">JB</tspan></text>
   </g>
 </svg>
