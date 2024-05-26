@@ -1,4 +1,4 @@
-/* card & backgrounds */
+/* body design*/
 body{
     background-color:#f6f8fa!important;
 }
@@ -15,10 +15,29 @@ bg-primary {
     -moz-box-shadow: 10px 10px 5px -6px rgba(150,150,150,0.75);
 }
 
+hr {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #747576 !important; /* Replace with your desired color */
+}
+
+
+/* about card */
+.about-card {
+    background-color: #ffffff !important;
+    border: 1px solid #33527a !important;
+    padding: 2%;
+    border-radius: .25rem;
+    box-shadow: 10px 10px 5px -6px rgba(150,150,150,0.75);
+    -webkit-box-shadow: 10px 10px 5px -6px rgba(150,150,150,0.75);
+    -moz-box-shadow: 10px 10px 5px -6px rgba(150,150,150,0.75);
+    height: 100%;
+}
+
 
 /* profile card */
 #profile-pic{
-    width: 80%;
+    width: 60%;
     height: auto;
     border-radius: 25%;
     margin-left: auto;
