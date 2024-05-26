@@ -9,6 +9,7 @@ bg-primary {
 
 .card {
     background-color: #ffffff !important;
+    border: 1px solid #33527a !important;
     box-shadow: 10px 10px 5px -6px rgba(150,150,150,0.75);
     -webkit-box-shadow: 10px 10px 5px -6px rgba(150,150,150,0.75);
     -moz-box-shadow: 10px 10px 5px -6px rgba(150,150,150,0.75);
@@ -17,18 +18,17 @@ bg-primary {
 
 /* profile card */
 #profile-pic{
-    width: 85%;
+    width: 80%;
     height: auto;
-    border-radius: 85%;
+    border-radius: 25%;
     margin-left: auto;
     margin-right: auto;
-    /* padding: 2%; */
 }
 
 #profile-wrapper {
     position: relative;
     background: url('images/cover_pic.jpg') no-repeat;
-    background-size: 100% 50%;
+    background-size: 100% 40%;
     background-position: top;
     text-align: left;
     background-color: #ffffff;
@@ -119,10 +119,18 @@ ul {
 
 
 /* text formatting */
-.monospace-bold {
+.monospace-title {
     margin: 0;
     font-family: 'Roboto Mono', monospace;
     font-size: 35px;
+    font-weight: 900;
+    color: #33527a;
+}
+
+.monospace-bold {
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
     font-weight: 900;
     color: #33527a;
 }
