@@ -1,15 +1,51 @@
+/* card & backgrounds */
 body{
     background-color:#eeeeee!important;
 }
 
+bg-primary {
+    background-color: #ffffff !important;
+}
+
+.card {
+    background-color: #ffffff !important;
+    box-shadow: 10px 10px 4px -6px rgba(198,198,198,1);
+    -webkit-box-shadow: 10px 10px 4px -6px rgba(198,198,198,1);
+    -moz-box-shadow: 10px 10px 4px -6px rgba(198,198,198,1);
+}
+
+
+/* profile card */
 #profile-pic{
     width: 85%;
     height: auto;
     border-radius: 85%;
     margin-left: auto;
     margin-right: auto;
+    /* padding: 2%; */
 }
 
+#profile-wrapper {
+    position: relative;
+    background: url('images/cover_pic.jpg') no-repeat;
+    background-size: 100% 50%;
+    background-position: top;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+#profile-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+
+/* project cards */
 .project {
     display: flex;
     align-items: center;
@@ -17,14 +53,8 @@ body{
 
 .project-icon {
     height: 200px;
-    transition: transform 0.1s ease;
-    margin-right: 10px;
+    padding: 2%;
 }
-
-.project-icon:hover {
-    transform: translateY(-10px);
-}
-
 
 .project-description {
     margin-left: 10px;
@@ -43,6 +73,26 @@ body{
     padding: 0;
 }
 
+.project-card {
+    transition: transform 0.1s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5%);
+}
+
+.project-card-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.project-card-link:hover, .project-card-link:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* social links */
 ul {
     padding: 0;
 }
@@ -67,10 +117,12 @@ ul {
     text-decoration: none;
 }
 
+
+/* text formatting */
 .monospace-bold {
     margin: 0;
     font-family: 'Roboto Mono', monospace;
-    font-size: 30px;
+    font-size: 35px;
     font-weight: 900;
     color: #33527a;
 }
@@ -89,38 +141,4 @@ ul {
     font-size: 12px;
     font-weight: 300;
     color: #33527a;
-}
-
-p.indented {
-    padding-left: 15px;
-    text-align: justify;
-
-}
-
-#profile-wrapper {
-    position: relative;
-    background: url('images/cover_pic.jpg') no-repeat;
-    background-size: 100% 50%;
-    background-position: top;
-    text-align: left;
-    background-color: #ffffff;
-}
-
-#profile-wrapper::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    pointer-events: none;
-}
-
-/* changes card colours */
-.card {
-    background-color: #ffffff !important;
-}
-
-bg-primary {
-    background-color: #ffffff !important;
 }
