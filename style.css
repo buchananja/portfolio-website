@@ -104,13 +104,13 @@ hr {
 }
 
 .project-card-link {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: none !important;
+    color: inherit !important;
 }
 
 .project-card-link:hover, .project-card-link:focus {
-    text-decoration: none;
-    color: inherit;
+    text-decoration: none !important;
+    color: inherit !important;
 }
 
 
