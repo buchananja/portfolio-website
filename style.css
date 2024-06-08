@@ -40,7 +40,7 @@ hr {
 
 /* profile card */
 #profile-pic{
-    width: 60%;
+    width: 50%;
     height: auto;
     border-radius: 25%;
     margin-left: auto;
@@ -100,7 +100,7 @@ hr {
 }
 
 .project-card:hover {
-    transform: translateY(-5%);
+    transform: translateY(-4%);
 }
 
 .project-card-link {
@@ -127,7 +127,7 @@ ul {
 }
 
 .social:hover {
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 
 .social-links ul, li{
