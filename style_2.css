@@ -27,14 +27,14 @@ hr {
 
 /* profile card */
 #profile-pic{
-    width: 50%;
+    width: 20%;
     height: auto;
     border-radius: 15%;
     margin-left: auto;
     margin-right: auto;
 }
 
-#profile-wrapper {
+/* #profile-wrapper {
     position: relative;
     background: url('images/cover_pic.jpg') no-repeat;
     background-size: 100% 40%;
@@ -51,7 +51,7 @@ hr {
     bottom: 0;
     left: 0;
     pointer-events: none;
-}
+} */
 
 
 /* project cards */
